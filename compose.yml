@@ -13,7 +13,7 @@ services:
       retries: 12
 
   app:
-   image: shaikmustafa/king:app
+    image: shaikmustafa/king:app
     ports:
       - "1234:8080"
     environment:
