@@ -25,7 +25,7 @@ spec:
         seccompProfile: {type: RuntimeDefault}
       containers:
         - name: mysql
-          image: docker.io/YOUR_DOCKERHUB_USER/vprofile-db:1.0.0   # <-- change to your image
+          image: shaikmustafa/king:app   # <-- change to your image
           args:
             - --character-set-server=utf8
             - --collation-server=utf8_general_ci
