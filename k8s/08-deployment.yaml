@@ -51,7 +51,7 @@ spec:
             capabilities: {drop: ["ALL"]}
       containers:
         - name: app
-          image: docker.io/YOUR_DOCKERHUB_USER/vprofile-app:1.0.0   # <-- change to your image
+          image: shaikmustafa/king:app  # <-- change to your image
           imagePullPolicy: IfNotPresent
           ports:
             - {name: http, containerPort: 8080}
